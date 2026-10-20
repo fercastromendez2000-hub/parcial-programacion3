@@ -1,0 +1,26 @@
+id_producto,producto,categoria,sucursal,cantidad_stock,precio_unitario
+PROD001,Laptop HP 15-ef2xxx,Tecnologia,San Salvador,45,650.00
+PROD002,Monitor Dell 27",Tecnologia,San Salvador,30,220.00
+PROD003,Teclado Mecanico,Tecnologia,Santa Ana,80,45.00
+PROD004,Mouse Inalambrico,Tecnologia,San Miguel,120,25.00
+PROD005,Impresora Epson,Tecnologia,La Libertad,15,180.00
+PROD006,Silla Ergonomica,Mobiliario,Sonsonate,25,135.00
+PROD007,Escritorio Ejecutivo,Mobiliario,San Salvador,10,290.00
+PROD008,Silla Ergonomica,Mobiliario,Santa Ana,18,135.00
+PROD009,Escritorio Ejecutivo,Mobiliario,San Miguel,8,290.00
+PROD010,Silla Ergonomica,Mobiliario,La Libertad,12,135.00
+PROD011,Disco Duro Externo 1TB,Tecnologia,Sonsonate,60,55.00
+PROD012,Memoria USB 64GB,Tecnologia,San Salvador,150,12.00
+PROD013,Memoria USB 64GB,Tecnologia,Santa Ana,110,12.00
+PROD014,Memoria USB 64GB,Tecnologia,San Miguel,90,12.00
+PROD015,Memoria USB 64GB,Tecnologia,La Libertad,75,12.00
+PROD016,Audifonos Bluetooth,Tecnologia,Sonsonate,40,35.00
+PROD017,Audifonos Bluetooth,Tecnologia,San Salvador,65,35.00
+PROD018,Audifonos Bluetooth,Tecnologia,Santa Ana,50,35.00
+PROD019,Router Wi-Fi Dual Band,Tecnologia,San Miguel,35,75.00
+PROD020,Router Wi-Fi Dual Band,Tecnologia,La Libertad,20,75.00
+PROD021,Silla Ergonomica,Mobiliario,San Salvador,30,135.00
+PROD022,Laptop HP 15-ef2xxx,Tecnologia,Santa Ana,20,650.00
+PROD023,Laptop HP 15-ef2xxx,Tecnologia,San Miguel,15,650.00
+PROD024,Laptop HP 15-ef2xxx,Tecnologia,La Libertad,10,650.00
+PROD025,Laptop HP 15-ef2xxx,Tecnologia,Sonsonate,8,650.00

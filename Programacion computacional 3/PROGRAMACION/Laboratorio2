@@ -1,0 +1,28 @@
+
+# 1. Entrada de datos
+cliente = input("Nombre del cliente: ")
+precio = float(input("Precio unitario ($): "))
+cantidad = int(input("Cantidad del producto: "))
+porcentaje_desc = float(input("Porcentaje de descuento (%): "))
+porcentaje_prop = float(input("Porcentaje de propina (%): "))
+
+# 2. Cálculos según las reglas
+subtotal = precio * cantidad
+monto_descuento = subtotal * (porcentaje_desc / 100)
+subtotal_con_descuento = subtotal - monto_descuento
+
+# La propina se calcula después del subtotal con descuento
+monto_propina = subtotal_con_descuento * (porcentaje_prop / 100)
+total_final = subtotal_con_descuento + monto_propina
+
+# 3. Impresión final ordenada y concatenada
+print("\n" + "="*35)
+print("        FACTURA DE VENTA        ")
+print("="*35)
+print(f"Cliente:               {cliente}")
+print(f"Subtotal:              ${subtotal:.2f}")
+print(f"Descuento ({porcentaje_desc}%):       -${monto_descuento:.2f}")
+print(f"Propina ({porcentaje_prop}%):         +${monto_propina:.2f}")
+print("-" * 35)
+print(f"Total Final:           ${total_final:.2f}")
+print("="*35)

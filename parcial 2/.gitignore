@@ -1,0 +1,20 @@
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+ENV/
+
+# Archivos de caché y compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración e historial de IDEs
+.vscode/
+.idea/
+
+# Archivos temporales y del sistema operativo
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
